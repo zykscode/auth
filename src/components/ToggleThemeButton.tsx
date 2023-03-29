@@ -5,8 +5,8 @@ import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline';
 import { useTheme } from 'next-themes';
 import React, { useState } from 'react';
 
-import { useDarkMode } from '#/lib/use-dark-mode';
 import styles from '#/components/Footer/styles.module.css';
+import { useDarkMode } from '#/lib/use-dark-mode';
 
 const ToggleThemeButton = () => {
   const [hasMounted, setHasMounted] = useState(false);
